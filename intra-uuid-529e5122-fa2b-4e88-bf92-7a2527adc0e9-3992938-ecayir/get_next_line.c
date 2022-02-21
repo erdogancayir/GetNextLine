@@ -53,19 +53,4 @@ char	*get_next_line(int fd)
 	left_str = ft_new_left_str(left_str);
 	return (line);
 }
-/*int	main(void)
-{
-	int i = 0;
-	int fd;
-	char *line;
-	char *line1;
-	int fd1;
-	fd = open("txt",O_RDONLY);
-	line = get_next_line(fd);
-	printf("%s",line);
-	fd1 = open("txt",O_RDONLY);
-	line1 = get_next_line(fd);
-	printf("%s",line1);
-	close(fd);
-	return (0);
-}*/
+
